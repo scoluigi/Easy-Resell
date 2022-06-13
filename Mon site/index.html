@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- head -->
+<head>
+   <meta charset="utf-8">
+    <title> Easy Resell </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <!-- CSS -->
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a5140a50c.js" crossorigin="anonymous"></script>
+     <!-- Font -->
+
+        <!-- meta SEO-->
+<meta name="description" content="La description de votre site ! mettre de bons mots clés !">
+<meta name="keywords" content="webdesign, webdeveloppeur, développeur fron-end">
+       <!-- meta SEO-->
+
+       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+</head>
+<!-- head -->
+
+
+<!-- body -->
+<body>
+    <!-- header -->
+
+    <div class="block">
+        <header class="header">
+            <a href="#" class="header-logo">Easy Resell</a>
+            <nav class="header-menu">
+            <a href="#">Acceuil</a>
+            <a href="#">À propos</a>
+            <a href="#">Contact</a>
+            </nav>
+    
+    </header>
+    </div>
+    <!-- header -->
+
+    <!-- banner -->
+<div class="block">
+<div class="banner">
+
+<img src="src/img/bg.jpg" alt="Armoire à chaussures" class="banner-image">
+<div class="banner-content">
+    <h1 class="title is-1">Bienvenue chez Easy Resell</h1>
+    <h2 class="subtitle">Découvrez ici plusieurs manières de se faire de l'argent</h2>
+    <button class="button is-link" id="open_modal">Contactez nous !</button>
+
+</div>
+    </div>
+</div>
+    <!-- banner -->
+
+    <!-- modal-->
+    <div class="modal own-modal" id="modal_to_open">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Modal title</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p>Le contenu de mon modal</p>
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button is-success">Save changes</button>
+            <button class="button">Cancel</button>
+          </footer>
+        </div>
+      </div>
+      <!-- modal-->
+
+    <!-- section : à propos -->
+<div class="block">
+    <h2 class="subtitle heading-site"> À propos</h2>
+        <div class="container about">
+            <div class="columns">
+                <div class="column about-single-element">
+                    <i class="fas fa-code icon"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+                     </p>
+                </div>
+                <div class="column about-single-element">
+                    <i class="fa-solid fa-mug-saucer icon"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                        </p>
+
+                </div>
+                <div class="column about-single-element">
+                    <i class="fa-solid fa-pencil icon"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                    </p>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- section : à propos -->
+
+    <!-- Easy Resell -->
+<div class="block">
+    <h2 class="subtitle heading-site">Easy Resell</h2>
+   <div class="container"> <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child">
+          </article>
+          <article class="tile is-child">
+            <img src="src/img/bg.jpg" alt="La description de la photo">
+        </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <div class="notification is-primary">
+                <div class="COLORED">100 x 100</div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child">
+            <img src="src/img/bg.jpg" alt="La description de la photo">
+          <div class="content">
+            <!-- Content -->
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child">
+        <div class="notification is-warning">
+            Le contenu
+        </div>
+      </article>
+    </div>
+  </div>
+    <!-- Easy Resell -->
+
+      <!-- Contact -->
+    <div class="block">
+        <footer class="footer">
+            <h2 class="heading-site">Contactez-nous !</h2>
+            <div class="footer-contact-form">
+                <form>
+                    <div class="field">
+                        <label class="label">Votre Nom</label>
+                        <div class="control">
+                          <input id='name' class="input" type="text" placeholder="e.g Smith" name="name">
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label class="label">Votre Prénom</label>
+                        <div class="control">
+                          <input id='firstname' class="input" type="text" placeholder="e.g Alex" name="firstname">
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label class="label">Votre mail</label>
+                        <div class="control">
+                          <input id='email' class="input" type="text" placeholder="e.g Alex Smith" name="email">
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label class="label">Votre message</label>
+                        <div class="control">
+                          <textarea id='message' class="textarea" placeholder="Explain how we can help you" name="message"></textarea>
+                        </div>
+                      </div>
+                </form>
+                <button class="button is link" id="send_email">Envoyer !</button>
+            </div>
+            <div class="footer-informations">
+<p>65 rue des reselleurs</p>
+<p>75018 Paris</p>
+<ul>
+    <li>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </li>
+    <a href="#">
+        <i class="fa-brands fa-discord"></i>
+    </a>
+</li>
+<a href="#">
+    <i class="fa-brands fa-tiktok"></i>
+</a>
+</li>
+</ul>
+          </div>
+        </footer>
+    </div>
+  <!-- Contact -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/src/js/main.js"></script>
+</body>
+<!-- body -->
+
+
+</html>
